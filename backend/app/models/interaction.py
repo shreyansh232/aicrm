@@ -11,7 +11,7 @@ from sqlalchemy import (
     Time,
 )
 from sqlalchemy.dialects.postgresql import JSON
-from database import Base
+from app.database import Base
 
 
 class Interaction(Base):
